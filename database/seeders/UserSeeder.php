@@ -18,18 +18,18 @@ class UserSeeder extends Seeder
                 'name' => 'Rangga Gunawan',
                 'email' => 'ranggagunawan851@gmail.com',
                 'password' => bcrypt('password'),
-                'role' => 'admin',
+                'role' => 'admin', 
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'name' => 'Nasywa Operator',
+                'name' => 'Nasywa Operator', 
                 'email' => 'nasywa@example.com',
                 'password' => bcrypt('password'),
                 'role' => 'admin',
                 'created_at' => now(),
                 'updated_at' => now(),
-            ]
+            ] 
         ];
 
         User::insert($users);
